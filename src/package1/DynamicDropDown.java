@@ -26,6 +26,11 @@ public class DynamicDropDown {
 		//driver.findElement(By.xpath("(//a[@value=\"IXB\"])[last()]")).click();
 		driver.findElement(By.xpath("//div[@id=\"glsctl00_mainContent_ddl_destinationStation1_CTNR\"] //a[@value=\"IXB\"]")).click();
 		Locators.sleep(5);
+		//==============================================================//
+		driver.findElement(By.xpath("//div[@id=\"glsctl00_mainContent_ddl_destinationStation1_CTNR\"] //a[@value=\"IXB\"]")).click();
+		Locators.sleep(5);
+		
+		
 		
 
 	}
